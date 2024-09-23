@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Storyboard</title>
+  <style>
+    body {
+      font-family: "Times New Roman", Times, serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      background-image: url('../Assets/Background2.jpg');
+      background-size: cover;
+      color: #f0f0f0;
+      line-height: 1.6;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      font-size: 3rem;
+      font-weight: 900;
+      color: #f0f0f0;
+      position: relative;
+    }
+
+    h1:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -1px;
+      height: 2px;
+      background: linear-gradient(to right, #b22222, #800000);
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 0.25s ease-out;
+    }
+
+    h1:hover:after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+
+    header {
+      background-color: #333333;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #f0f0f0;
+    }
+
+    p, ul {
+      margin-bottom: 20px;
+      color: #f0f0f0;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #ff5e62;
+      padding: 0 20px;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+    }
+
+    nav ul li a:hover {
+      color: #f0f0f0;
+    }
+
+    footer {
+      background-color: #333333;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Storyboard</h1>
+    <nav>
+      <ul>
+        <li><a href="#wireframe">Wireframe</a></li>
+        <li><a href="#pages">Pages</a></li>
+        <li><a href="#theme">Theme</a></li>
+        <li><a href="#features">Features</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="wireframe">
+      <h2>Wireframe</h2>
+      <p>Below is the wireframe layout for the website. The wireframe provides an overall structure for how each page will be laid out, ensuring that the navigation, content sections, and imagery are organized effectively. This design helps guide the development of the site and offers a visual representation of the key elements to be included.</p>
+      <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/JJsVfbHCVbgQQAOe5jRQQz/Untitled?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+    </section>
+
+    <section id="pages">
+      <h2>Pages Purpose</h2>
+      <ul>
+        <li><strong>My Portfolio:</strong> Introduces who I am and provides the core navigation to access different sections of the site, including my professional achievements and personal insights.</li>
+        <li><strong>Professional:</strong> Presents detailed information about my professional background, including my résumé, vision statement, and qualifications in cybersecurity.</li>
+        <li><strong>Personality:</strong> Reflects my strongest personal traits, emotional influences, hobbies, and results from a personality assessment, giving visitors an in-depth view of my character.</li>
+        <li><strong>Personal Development:</strong> Showcases how I have grown through academic and personal experiences, including key takeaways from the books I’ve read and how I apply them to my life.</li>
+        <li><strong>Storyboard:</strong> Outlines the structure and planning process of the website, providing a visual layout of the site’s design and functionality, along with its intended audience.</li>
+        <li><strong>Reference:</strong> Lists all sources and materials used in the creation of the website, formatted in APA style.</li>
+      </ul>
+    </section>
+
+    <section id="theme">
+      <h2>Theme</h2>
+      <p>The theme for this website is heavily inspired by cybersecurity, reflected through a dark background that gives the site a modern, sleek look. The light text contrasts sharply, improving readability, and emphasizes the professional tone. The theme is tailored for professionals and employers in the cybersecurity field, focusing on clarity, structure, and ease of navigation while maintaining a serious and focused visual tone.</p>
+    </section>
+
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li><strong>Wireframe:</strong> Provides the blueprint for how the website's pages are structured, ensuring smooth navigation and organized content presentation.</li>
+        <li><strong>Image Gallery:</strong> Includes relevant images, such as my résumé and personality test results, that add visual context and depth to the site’s content.</li>
+        <li><strong>Interactive Navigation:</strong> Smooth and user-friendly navigation allows users to quickly move between different sections of the site, enhancing their experience.</li>
+        <li><strong>Email Links:</strong> Embedded email links for easy communication and networking with visitors and potential employers.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="#wireframe">Top of page</a></li>
+        <li><a href="index.html">My Portfolio</a></li>
+        <li><a href="Professional Page.html">Professional</a></li>
+        <li><a href="Personality Page.html">Personality</a></li>
+        <li><a href="Personal Development.html">Personal Development</a></li>
+        <li><a href="Reference Page.html">Reference</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Development</title>
+  <style>
+    body {
+      font-family: "Times New Roman", Times, serif;
+      background-color: #121212;
+      background-image: url('../Assets/background2.jpg');
+      background-size: cover;
+      color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      font-size: 3rem;
+      font-weight: 900;
+      color: #f0f0f0;
+      display: inline-block;
+      position: relative;
+    }
+
+    h1:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -1px;
+      height: 2px;
+      background: linear-gradient(to right, #b22222, #800000);
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 0.25s ease-out;
+    }
+
+    h1:hover:after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+
+    header {
+      background-color: #333333;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+      background-color: #333333;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #ff5e62;
+      padding: 0 20px;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      position: relative;
+    }
+
+    nav a:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -10px;
+      height: 10px;
+      background: #800000;
+      clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+      opacity: 0;
+      transition: transform 0.25s ease-out, opacity 0.25s ease-out;
+      transform: translateY(10px);
+    }
+
+    nav a:hover:before {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      color: #f0f0f0;
+    }
+
+    p {
+      margin-bottom: 20px;
+      color: #f0f0f0;
+    }
+
+    a img {
+      transition: filter 0.3s ease-out;
+    }
+
+    a:hover img {
+      filter: brightness(120%);
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+
+    footer {
+      background-color: #333333;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">My Portfolio</a></li>
+      <li><a href="Professional Page.html">Professional</a></li>
+      <li><a href="Personality Page.html">Personality</a></li>
+      <li><a href="Storyboard page.html">Storyboard</a></li>
+      <li><a href="Reference Page.html">Reference</a></li>
+    </ul>
+  </nav>
+
+  <header id="top3">
+    <h1>Personal Development</h1>
+  </header>
+  
+  <main>
+    <h2>Reflection on "Twelve Pillars"</h2>
+    <p>"Twelve Pillars" by Jim Rohn and Chris Widener delivered some invaluable insights. It reinforced the importance of continual growth, managing time effectively, and the power of surrounding myself with driven likeminded people The message was clear that success isnt random its built by making intentional decisions every day. Key takeaways include:</p>
+    <ul>
+      <li><strong>Change is inevitable:</strong> To move forward, you must evolve. Shifting my mindset and habits has already had a major impact on my growth.</li>
+      <li><strong>Balance is key:</strong> Focusing on mental, physical and spiritual well-being creates a strong foundation for success.</li>
+      <li><strong>Build strong relationships:</strong> Personal and professional connections need consistent effort to grow.</li>
+      <li><strong>Set high goals:</strong> Aiming higher pushes me beyond my comfort zone driving greater achievements.</li>
+      <li><strong>Time management matters:</strong> Discipline trumps regret. Making time for important goals is a game-changer.</li>
+      <li><strong>High achievers inspire:</strong> Surrounding myself with ambitious individuals pushes me to raise my standards.</li>
+      <li><strong>Lifelong learning:</strong> Investing in selfeducation ensures continuous professional and personal growth.</li>
+    </ul>
+    <p>Overall, "Twelve Pillars" has become a resource I’ll revisit whenever I need a reminder of how to stay on track toward my goals.</p>
+    <a href="https://dokumen.tips/documents/twelve-pillars.html?page=1"><img src="../Assets/pillars.jpg" alt="Twelve Pillars" width="25%" height="25%"></a>
+
+    <h2>Degree and Skills</h2>
+    <p>I am currently working towards a Bachelor's degree in Computing and Information Technology with a focus on Cybersecurity. The top three skills I have acquired so far are:</p>
+    <ol>
+      <li><strong>Adaptability:</strong> I’ve developed the ability to adapt to changing technologies and environments in cybersecurity. Staying flexible allows me to continuously learn and apply new techniques in solving complex security issues.</li>
+      <li><strong>Communication:</strong> Being able to explain technical concepts to non-technical audiences is crucial. I’ve learned to break down complex ideas into understandable language, which helps in collaboration and decision-making.</li>
+      <li><strong>Problem-solving:</strong> Cybersecurity is all about solving problems. I’ve honed my ability to analyze potential threats, identify vulnerabilities, and implement effective solutions to protect systems from attacks.</li>
+    </ol>
+  </main>
+
+  <footer>
+    <p>&copy; 2022 Jordell Fong. All rights reserved.</p>
+    <nav>
+      <ul>
+        <li><a href="#top3">Top of page</a></li>
+        <li><a href="index.html">My Portfolio</a></li>
+        <li><a href="Professional Page.html">Professional</a></li>
+        <li><a href="Personality Page.html">Personality</a></li>
+        <li><a href="Storyboard page.html">Storyboard</a></li>
+        <li><a href="Reference Page.html">Reference</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>

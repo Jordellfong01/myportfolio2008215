@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Page</title>
+  <style>
+    body {
+      font-family: "Times New Roman", Times, serif;
+      background-color: #121212;
+      background-image: url('../Assets/background4.jpg');
+      background-size: cover;
+      color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      font-size: 3rem;
+      font-weight: 900;
+      color: #f0f0f0;
+      display: inline-block;
+      position: relative;
+    }
+
+    h1:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -1px;
+      height: 2px;
+      background: linear-gradient(to right, #b22222, #800000);
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 0.25s ease-out;
+    }
+
+    h1:hover:after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+
+    header {
+      background-color: #333333;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+      background-color: #333333;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #ff5e62;
+      padding: 0 20px;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      position: relative;
+    }
+
+    nav a:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -10px;
+      height: 10px;
+      background: #800000;
+      clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+      opacity: 0;
+      transition: transform 0.25s ease-out, opacity 0.25s ease-out;
+      transform: translateY(10px);
+    }
+
+    nav a:hover:before {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      color: #f0f0f0;
+    }
+
+    p {
+      margin-bottom: 20px;
+      color: #f0f0f0;
+    }
+
+    img {
+      transition: filter 0.3s ease-out;
+      border: 2px solid #f0f0f0;
+    }
+
+    img:hover {
+      filter: brightness(120%);
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+
+    footer {
+      background-color: #333333;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">My Portfolio</a></li>
+      <li><a href="Personality Page.html">Personality</a></li>
+      <li><a href="Personal Development.html">Personal Development</a></li>
+      <li><a href="Storyboard page.html">Storyboard</a></li>
+      <li><a href="Reference Page.html">Reference</a></li>
+    </ul>
+  </nav>
+
+  <header id="top1">
+    <h1>Professional Page</h1>
+  </header>
+
+  <main>
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>Please see my resume:</p>
+      <img src="../Assets/Resume.jpg" alt="Resume" width="50%" height="50%">
+    </section>
+
+    <section id="vision">
+      <h2>Vision Statement</h2>
+      <p>To become a well-respected security analyst known for anticipating cyber risks and neutralizing threats, helping organizations stay secure while driving security awareness across the industry.</p>
+    </section>
+
+    <section id="mission">
+      <h2>Mission Statement</h2>
+      <p>To continuously improve my knowledge and skills in cybersecurity, delivering insightful analysis of threats while contributing to the development of strong security protocols that keep data and systems safe.</p>
+    </section>
+
+    <section id="requirements">
+      <h2>Job Requirements and Qualifications</h2>
+      <p>A Security Analyst’s job is to ensure that an organization’s information systems are protected. Here are some common requirements and qualifications:</p>
+      <h3>Job Requirements</h3>
+      <ul>
+        <li>Bachelor's degree in Computer Science, IT, or related field</li>
+        <li>Experience with security tools, software development, and analysis techniques</li>
+        <li>Excellent problem-solving skills and clear communication abilities</li>
+        <li>Ability to work in collaborative environments with cross-functional teams</li>
+      </ul>
+    </section>
+
+    <section id="qualifications">
+      <h3>Qualifications</h3>
+      <ul>
+        <li>Over 2 years of experience working in IT security at JMMB</li>
+        <li>Hands-on experience with deployments, troubleshooting, and managing service desk tickets</li>
+        <li>Familiarity with penetration testing methods, threat detection, and vulnerability management</li>
+        <li>Understanding of firewalls, IDS/IPS systems, antivirus solutions, and SIEM tools</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="#top1">Top of page</a></li>
+        <li><a href="index.html">My Portfolio</a></li>
+        <li><a href="Personality Page.html">Personality</a></li>
+        <li><a href="Personal Development.html">Personal Development</a></li>
+        <li><a href="Storyboard page.html">Storyboard</a></li>
+        <li><a href="Reference Page.html">Reference</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>

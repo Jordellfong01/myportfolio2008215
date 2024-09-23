@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reference Page</title>
+  <style>
+    body {
+      font-family: "Times New Roman", Times, serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      background-image: url('../Assets/Background2.jpg');
+      background-size: cover;
+      color: #f0f0f0;
+      line-height: 1.6;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      font-size: 3rem;
+      font-weight: 900;
+      color: #f0f0f0;
+      position: relative;
+    }
+
+    h1:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -1px;
+      height: 2px;
+      background: linear-gradient(to right, #b22222, #800000);
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 0.25s ease-out;
+    }
+
+    h1:hover:after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+
+    header {
+      background-color: #333333;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #f0f0f0;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    a {
+      color: #ff5e62;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #fff;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #ff5e62;
+      padding: 0 20px;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+    }
+
+    nav ul li a:hover {
+      color: #fff;
+    }
+
+    footer {
+      background-color: #333333;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Reference Page</h1>
+  </header>
+
+  <main>
+    <section id="books">
+      <h2>Books</h2>
+      <ul>
+        <li>
+          <p><strong>Rohn, J., &amp; Widener, C. (2012).</strong> Twelve Pillars: The Laws of Success as Adapted from the Teachings of Richest Man in Babylon.</p>
+          <p><em>New York, NY:</em> Jaico Publishing House.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="websites">
+      <h2>Websites</h2>
+      <ul>
+        <li>
+          <p>
+            Marcus Garvey Quotes. (n.d.). <em>BrainyQuote.com</em>. Retrieved February 26, 2024, from <a href="https://www.brainyquote.com/quotes/marcus_garvey_365155">https://www.brainyquote.com/quotes/marcus_garvey_365155</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            Digital Guardian. (2023). What is a Security Analyst? Skills, Salary, Certifications & More. Retrieved from <a href="https://www.digitalguardian.com/blog/what-security-analyst-responsibilities-qualifications-and-more">https://www.digitalguardian.com/blog/what-security-analyst-responsibilities-qualifications-and-more</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            SecurityStudio. (2021). Security Analyst Responsibilities, Qualifications, and More. Retrieved from <a href="https://securitystudio.com/security-analyst/">https://securitystudio.com/security-analyst/</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            Cyber Degrees. (2022). Security Analyst Career Overview. Retrieved from <a href="https://www.cyberdegrees.org/jobs/security-analyst/">https://www.cyberdegrees.org/jobs/security-analyst/</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            Betterteam. (n.d.). Information Security Analyst Job Description. Retrieved from <a href="https://www.betterteam.com/information-security-analyst-job-description">https://www.betterteam.com/information-security-analyst-job-description</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            16Personalities. (n.d.). Our Framework. Retrieved February 26, 2024, from <a href="https://www.16personalities.com/articles/our-theory">https://www.16personalities.com/articles/our-theory</a>
+          </p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="index.html">My Portfolio</a></li>
+        <li><a href="Professional Page.html">Professional</a></li>
+        <li><a href="Personality Page.html">Personality</a></li>
+        <li><a href="Personal Development.html">Personal Development</a></li>
+        <li><a href="Storyboard page.html">Storyboard</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
